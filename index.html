@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<!----home Section start---->
+
+	<div class="home" id="home">
+		<nav>
+			<h2 class="logo" id="home">Port<span>folio</span></h2>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#mySkills">My Skills</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>
+			<a href="#" class="btn">Follow</a>
+		</nav>
+
+		<div class="content">
+			<h2>I'm <span class="element"></span></h2>
+			<h3>I like Coding.</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Send">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about" id="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and attractive design. I can also make
+					website more interactive and user friendly with help of animations. I can design perfect responsive
+					website</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<div class="service" id="service">
+		<div class="title">
+			<h2>Our Services</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nam porro illo odio nemo aliquid
+						assumenda, omnis ratione voluptatem quas?</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More...</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nam porro illo odio nemo aliquid
+						assumenda, omnis ratione voluptatem quas?</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More...</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nam porro illo odio nemo aliquid
+						assumenda, omnis ratione voluptatem quas?</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More...</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div class="contact-me" id="contact">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
+
+	<!------footer start--------->
+	<footer id="footer">
+		<p>Amit Nepali</p>
+		<p>For more information about my self, you can refer these social sites...</p>
+		<div class="social">
+			<a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+			<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.fa-instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+		</div>
+		<p class="end"> &#169; Copyright Amit Nepali 2023.</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		var options = {
+			strings: ['Amit Nepali.', 'Web Developer.', 'Web Designer.'],
+			typeSpeed: 140,
+			backSpeed: 140,
+			loop: true
+		};
+
+		var typed = new Typed('.element', options);
+	</script>
+</body>
+
+</html>
